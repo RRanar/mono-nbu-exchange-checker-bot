@@ -1,0 +1,23 @@
+{
+  "name": "mono-nbu-exchange-cheker-bot",
+  "version": "0.0.1",
+  "description": "Simple TG bot for checks diff with NBU exchange rate and Monobank exchange rate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mono",
+    "nbu",
+    "exchange"
+  ],
+  "author": "Dmitro Terentiuk <dmitro.terentiuk@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
