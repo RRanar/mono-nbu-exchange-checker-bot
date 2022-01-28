@@ -1,6 +1,10 @@
 version: '3.8'
 services:
     web:
+      build: .docker/nodejs
+      ports:
+        - "80:80"
+      volumes:
+       - ./:/var/www/
 
 
-    

@@ -4,6 +4,8 @@
   "description": "Simple TG bot for checks diff with NBU exchange rate and Monobank exchange rate",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^14.3.2",
+    "logger": "^0.0.1",
     "node-telegram-bot-api": "^0.56.0"
   },
   "devDependencies": {
